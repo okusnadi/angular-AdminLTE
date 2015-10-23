@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <title>AdminLTE 2 | Dashboard</title>
+
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/lib/AdminLTE/dist/css/AdminLTE.css" rel="stylesheet">
+    <link href="assets/lib/AdminLTE/dist/css/skins/skin-blue.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="skin-blue" ng-app="adminLTEApp">
+    <div class="wrapper">
+
+      <header class="main-header">
+
+        <lte-logo></lte-logo>
+
+        <nav class="navbar navbar-static-top" role="navigation">
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <lte-messages-menu ng-controller="MessagesMenuCtrl"></lte-messages-menu>
+              <lte-notifications-menu ng-controller="NotificationsMenuCtrl"></lte-notifications-menu>
+              <lte-tasks-menu ng-controller="TasksMenuCtrl"></lte-tasks-menu>
+              <lte-user-menu ng-controller="UserMenuCtrl"></lte-user-menu>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <aside class="main-sidebar"></aside>
+
+      <div class="content-wrapper">
+        <section class="content-header">
+          <h1>Dashboard <small>Control panel</small></h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Dashboard</li>
+          </ol>
+        </section>
+
+        <section class="content"></section>
+      </div>
+
+      <lte-footer ng-controller="FooterCtrl"></lte-footer>
+    </div>
+
+    <script src="assets/lib/angular/angular.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assets/lib/moment/min/moment.min.js"></script>
+    <script src="assets/lib/angular-moment/angular-moment.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/config.js"></script>
+
+    <script src="assets/js/directives/Directives.js"></script>
+    <script src="assets/js/directives/LogoDirective.js"></script>
+    <script src="assets/js/directives/MessagesMenuDirective.js"></script>
+    <script src="assets/js/directives/NotificationsMenuDirective.js"></script>
+    <script src="assets/js/directives/TasksMenuDirective.js"></script>
+    <script src="assets/js/directives/UserMenuDirective.js"></script>
+    <script src="assets/js/directives/FooterDirective.js"></script>
+
+    <script src="assets/js/services/Services.js"></script>
+    <script src="assets/js/services/Message.js"></script>
+    <script src="assets/js/services/Notification.js"></script>
+    <script src="assets/js/services/Task.js"></script>
+    <script src="assets/js/services/User.js"></script>
+
+    <script src="assets/js/filters/Filters.js"></script>
+    <script src="assets/js/filters/PercentageFilter.js"></script>
+
+    <script src="assets/js/controllers/Controllers.js"></script>
+    <script src="assets/js/controllers/MessagesMenuCtrl.js"></script>
+    <script src="assets/js/controllers/NotificationsMenuCtrl.js"></script>
+    <script src="assets/js/controllers/TasksMenuCtrl.js"></script>
+    <script src="assets/js/controllers/UserMenuCtrl.js"></script>
+    <script src="assets/js/controllers/FooterCtrl.js"></script>
+  </body>
+</html>

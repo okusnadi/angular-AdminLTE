@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Design some buttons",
+    "completion": 0.2,
+    "bar_color": "aqua"
+  },
+  {
+    "title": "Create a nice theme",
+    "completion": 0.4,
+    "bar_color": "green"
+  },
+  {
+    "title": "Some task I need to do",
+    "completion": 0.6,
+    "bar_color": "red"
+  },
+  {
+    "title": "Make beautiful transitions",
+    "completion": 0.8,
+    "bar_color": "yellow"
+  }
+]

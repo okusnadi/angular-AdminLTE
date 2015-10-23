@@ -1,0 +1,39 @@
+<li class="dropdown user user-menu">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    <img ng-src="assets/img/users/{{user.image}}" class="user-image" alt="{{user.name}} Photo">
+    <span class="hidden-xs">{{user.name}}</span>
+  </a>
+  <ul class="dropdown-menu">
+
+    <li class="user-header">
+      <img ng-src="assets/img/users/{{user.image}}" class="img-circle" alt="{{user.name}} Photo">
+      <p>
+        {{user.name}} - {{user.title}}
+        <small>Member since {{created | amDateFormat:'MMM. YYYY'}}</small>
+      </p>
+    </li>
+
+    <li class="user-body">
+      <div class="row">
+        <div class="col-xs-4 text-center">
+          <a href="#">Followers</a>
+        </div>
+        <div class="col-xs-4 text-center">
+          <a href="#">Sales</a>
+        </div>
+        <div class="col-xs-4 text-center">
+          <a href="#">Friends</a>
+        </div>
+      </div>
+    </li>
+
+    <li class="user-footer">
+      <div class="pull-left">
+        <a href="#" class="btn btn-default btn-flat">Profile</a>
+      </div>
+      <div class="pull-right">
+        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+      </div>
+    </li>
+  </ul>
+</li>

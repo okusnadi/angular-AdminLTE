@@ -1,0 +1,8 @@
+node_modules/
+assets/lib
+.tmp
+.sass-cache
+*.swp
+*.swo
+*.log
+*.DS_Store

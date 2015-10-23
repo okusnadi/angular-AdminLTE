@@ -1,0 +1,42 @@
+[
+  {
+    "user": {
+      "name": "Support Team",
+      "image": "user2-160x160.jpg"
+    },
+    "message": "Why not buy a new awesome theme?",
+    "created_at": "2015-10-23 19:32:32"
+  },
+  {
+    "user": {
+      "name": "AdminLTE Design Team",
+      "image": "user3-128x128.jpg"
+    },
+    "message": "Why not buy a new awesome theme?",
+    "created_at": "2015-10-23 19:25:32"
+  },
+  {
+    "user": {
+      "name": "Developers",
+      "image": "user4-128x128.jpg"
+    },
+    "message": "Why not buy a new awesome theme?",
+    "created_at": "2015-10-23 16:32:32"
+  },
+  {
+    "user": {
+      "name": "Sales Department",
+      "image": "user3-128x128.jpg"
+    },
+    "message": "Why not buy a new awesome theme?",
+    "created_at": "2015-10-22 19:32:32"
+  },
+  {
+    "user": {
+      "name": "Reviewers",
+      "image": "user4-128x128.jpg"
+    },
+    "message": "Why not buy a new awesome theme?",
+    "created_at": "2015-03-17 20:32:32"
+  }
+]

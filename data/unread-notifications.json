@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "users",
+    "icon_color": "aqua",
+    "message": "5 new members joined today"
+  },
+  {
+    "icon": "warning",
+    "icon_color": "yellow",
+    "message": "Very long description here that may not fit into the page and may cause design problems"
+  },
+  {
+    "icon": "users",
+    "icon_color": "red",
+    "message": "5 new members joined"
+  },
+  {
+    "icon": "shopping-cart",
+    "icon_color": "green",
+    "message": "25 sales made"
+  },
+  {
+    "icon": "user",
+    "icon_color": "red",
+    "message": "You changed your username"
+  }
+]
