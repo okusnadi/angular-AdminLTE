@@ -1,0 +1,14 @@
+<li ng-repeat="menu in menus" ng-class="{ 'treeview': menu.children.length }">
+  <a ng-href="{{ menu.children.length ? '#' : menu.link}}">
+    <i class="fa fa-{{menu.icon}}"></i> <span>{{menu.menu}}</span>
+    <small ng-if="menu.label" class="label pull-right label-{{menu.label_type}}">{{menu.label}}</small>
+    <i ng-if="! menu.label" class="fa fa-angle-left pull-right"></i>
+  </a>
+  <ul ng-if="menu.children.length" class="treeview-menu">
+    <li ng-repeat="child in menu.children">
+      <a ng-href="{{child.link}}">
+        <i class="fa fa-circle-o"></i> {{child.menu}}
+      </a>
+    </li>
+  </ul>
+</li>
