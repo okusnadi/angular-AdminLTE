@@ -42,7 +42,13 @@
         </nav>
       </header>
 
-      <aside class="main-sidebar"></aside>
+      <aside class="main-sidebar">
+        <section class="sidebar">
+
+          <lte-user-panel ng-controller="UserPanelCtrl"></lte-user-panel>
+
+        </section>
+      </aside>
 
       <div class="content-wrapper">
         <section class="content-header">
@@ -74,6 +80,7 @@
     <script src="assets/js/directives/NotificationsMenuDirective.js"></script>
     <script src="assets/js/directives/TasksMenuDirective.js"></script>
     <script src="assets/js/directives/UserMenuDirective.js"></script>
+    <script src="assets/js/directives/UserPanelDirective.js"></script>
     <script src="assets/js/directives/FooterDirective.js"></script>
 
     <script src="assets/js/services/Services.js"></script>
@@ -90,6 +97,7 @@
     <script src="assets/js/controllers/NotificationsMenuCtrl.js"></script>
     <script src="assets/js/controllers/TasksMenuCtrl.js"></script>
     <script src="assets/js/controllers/UserMenuCtrl.js"></script>
+    <script src="assets/js/controllers/UserPanelCtrl.js"></script>
     <script src="assets/js/controllers/FooterCtrl.js"></script>
   </body>
 </html>

@@ -69,6 +69,11 @@ The following custom Angular directives are already available:
 <lte-user-menu ng-controller="MyCtrl"></lte-user-menu>
 ```
 
+#### Sidebar User Panel
+```html
+<lte-user-panel ng-controller="MyCtrl"></lte-user-panel>
+```
+
 #### Footer
 ```html
 <lte-footer ng-controller="MyCtrl"></lte-footer>
