@@ -74,6 +74,11 @@ The following custom Angular directives are already available:
 <lte-user-panel ng-controller="MyCtrl"></lte-user-panel>
 ```
 
+#### Sidbar Search Form
+```html
+<lte-sidebar-search ng-controller="MyCtrl" ng-submit="search()"></lte-sidebar-search>
+```
+
 #### Footer
 ```html
 <lte-footer ng-controller="MyCtrl"></lte-footer>

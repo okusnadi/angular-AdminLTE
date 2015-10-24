@@ -46,6 +46,7 @@
         <section class="sidebar">
 
           <lte-user-panel ng-controller="UserPanelCtrl"></lte-user-panel>
+          <lte-sidebar-search ng-controller="SidebarSearchCtrl" ng-submit="search()"></lte-sidebar-search>
 
         </section>
       </aside>
@@ -81,6 +82,7 @@
     <script src="assets/js/directives/TasksMenuDirective.js"></script>
     <script src="assets/js/directives/UserMenuDirective.js"></script>
     <script src="assets/js/directives/UserPanelDirective.js"></script>
+    <script src="assets/js/directives/SidebarSearchDirective.js"></script>
     <script src="assets/js/directives/FooterDirective.js"></script>
 
     <script src="assets/js/services/Services.js"></script>
@@ -98,6 +100,7 @@
     <script src="assets/js/controllers/TasksMenuCtrl.js"></script>
     <script src="assets/js/controllers/UserMenuCtrl.js"></script>
     <script src="assets/js/controllers/UserPanelCtrl.js"></script>
+    <script src="assets/js/controllers/SidebarSearchCtrl.js"></script>
     <script src="assets/js/controllers/FooterCtrl.js"></script>
   </body>
 </html>
