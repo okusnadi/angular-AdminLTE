@@ -71,7 +71,7 @@ The following custom Angular directives are already available:
 
 #### Sidebar User Panel
 ```html
-<lte-user-panel ng-controller="MyCtrl"></lte-user-panel>
+<lte-sidebar-user-panel ng-controller="MyCtrl"></lte-sidebar-user-panel>
 ```
 
 #### Sidbar Search Form
